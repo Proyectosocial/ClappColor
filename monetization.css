@@ -1,0 +1,14 @@
+/* ColorLab - capa opcional de monetización */
+.monetization-zone{display:grid;gap:12px;margin-top:18px}
+.monetization-card{padding:16px 18px;border-radius:16px;background:rgba(255,255,255,.68);border:1px solid rgba(255,255,255,.65)}
+.monetization-card h3{margin:0 0 6px;font-size:1rem}.monetization-card p{margin:0;color:#555;font-size:.88rem;line-height:1.45}
+.monetization-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.monetization-btn{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 14px;border-radius:10px;border:0;font-weight:800;text-decoration:none;cursor:pointer}
+.monetization-btn-primary{background:linear-gradient(135deg,#087ef6,#0566cc);color:#fff}
+.monetization-btn-secondary{background:rgba(255,255,255,.85);color:#151515;border:1px solid rgba(0,0,0,.12)}
+.sponsor-label{display:block;margin-bottom:5px;font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:#666}
+.monetization-close{float:right;min-height:auto;padding:3px 8px;background:transparent;color:#666}
+@media(max-width:600px){.monetization-actions{flex-direction:column}.monetization-btn{width:100%}}
+
+.action-btn-with-icon{display:inline-flex;align-items:center;justify-content:center;gap:9px}
+.action-icon{width:22px;height:22px;object-fit:contain;flex:0 0 22px}
